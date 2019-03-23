@@ -1,4 +1,4 @@
-
+require_relative '../lib/operations.rb'
 describe "Operations" do
   let(:file_contents) { File.read(File.join(File.dirname(__FILE__), '..', 'lib/operations.rb')) }
 
@@ -17,7 +17,7 @@ describe "Operations" do
       answer = unsafe?(50)
       expect(answer).to eq(false)
     end
-  end
+end
 
   describe "#not_safe?" do
     it 'returns true if speed is greater than 60' do
