@@ -8,11 +8,3 @@ def unsafe?(speed = 60)
   false
  end
 end
-
-answer = not_safe?(79)
-end
-  
-
-
-
-
