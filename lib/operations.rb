@@ -1,5 +1,7 @@
-def unsafe?(speed)
 
+
+def unsafe?(95mph)
+puts Hey, 30 mph is not safe
 end
 
 
